@@ -21,7 +21,6 @@ pomodoro.sh [OPTION...]
 Help Options:
 -h, --help                      Show help options
 Application Options:
--b, --background		        Start application in background and across sessions
 -w, --worktimer                 Specify the time(in minutes) for work
 -r, --resttimer                 Specify the time(in minutes) for rest
 -v, --version                   Version of the package.
