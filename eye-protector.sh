@@ -69,12 +69,12 @@ function brightness_util() {
 function runClock() {
   while true; do
     if ((work)); then
-      let "currTimer = $startTimer + $workTimer * 2"
+      let "currTimer = $startTimer + $workTimer * 60"
       delay
       brightness=$min_brightness
       notif_rest_time
     else
-      let "currTimer = $startTimer + $restTimer * 2"
+      let "currTimer = $startTimer + $restTimer * 60"
       delay
       brightness=$max_brightness
       notif_work_time
