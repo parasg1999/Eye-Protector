@@ -1,4 +1,4 @@
-# Pomodoro-Shell
+# Eye-Protector
 
 BASH script to increase productivity of the users by setting work and rest timers along with brightness controls that the user can setup on his own or use the defaults.
 
@@ -22,17 +22,17 @@ Application Options:
 
 1. Clone the git repository
 ```
-git clone https://github.com/parasg1999/Pomodoro-Shell/
+git clone https://github.com/parasg1999/Eye_Protector/
 ```
 
-2. ```cd``` to ```Pomodoro-Shell```
+2. ```cd``` to ```Eye-Protector```
 
 3. Change the permissions to make the script executable
 ```
-chmod u+x pomodoro.sh
+chmod u+x eye-protector.sh
 ```
 
-4. Run the script using ```./pomodoro.sh [options]```
+4. Run the script using ```./eye-protector.sh [options]```
 
 ## Contributions
 I would love to recieve your suggestions. Feel free to make a Pull Request or create an Issue if you want to contribute.
