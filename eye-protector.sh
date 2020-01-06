@@ -14,7 +14,7 @@ startTimer=0
 currTimer=0
 min_brightness=0.6
 max_brightness=1
-brighttenss=1
+brightness=1
 
 function help() {
 # Here-text  
@@ -22,15 +22,13 @@ cat << EOF
 
 Usage:
 eye-protector.sh [options]
--mb, --min-brightness           Set the brightness that you set during the rest timer.. Don't set this too low.
--mb, --min-brightness           Set the brightness that you set during the rest timer.. Don't set this too low.
 
 Help Options:
 -h  , --help                    Show this help menu
 
 Application Options:
--wt , --worktimer               Specify the time(in minutes) for work
--rt , --resttimer               Specify the time(in minutes) for rest
+-wt , --worktimer               Specify the time(in minutes) for work (default $workTimer minutes). 
+-rt , --resttimer               Specify the time(in minutes) for rest (default $restTimer minutes).
 -v  , --version                 Version of the package.
 -rb , --restore-brightness      If you exit the process before work timer starts, use this option to reset the brightness to default.
 -mb , --min-brightness          Set the brightness that you want during the rest. Possible values between 0 and 0.5.
